@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0.5px;
+    height: 0.5px;
+  }
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: rgba(25, 25, 250, 0);
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0);
+  }
+
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    padding: 1% 10%;
+    background: url(images/c.jpg);
+    background-size: cover;
+    height: 10%;
+
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight :700;
+    font-size :120%;
+    margin-left: 10%;
+    min-width: 15%;
+    
+}
+.logo:hover{
+    color: rgb(91, 91, 250)
+}
+nav{
+    margin-left: 50%;
+    margin-right: 10%;
+    min-width: 25%;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-weight :500;
+    padding-left: 10px;   
+}
+.navigation a:hover{
+    color: rgb(91, 91, 250)
+}
+
+section {
+    padding: 10% 5% 10% 10%;
+    width: 100%;
+    min-width: 100%;
+
+}
+
+.main {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    background: url(images/c.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    margin-top:11%;
+    color: white;
+    font-size :120%;
+    font-weight: 500;
+    text-shadow: #000 0px 0px 1px;
+
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 1%;
+    color: rgb(25, 25, 250);
+    font-size: 350%;
+    font-weight: 600;
+    text-shadow: rgb(131, 129, 129) 0px 0px 1px;
+
+}
+.main h3 {
+    color: #fff;
+    font-size: 110%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-button {
+    color: #fff;
+    background-color: rgb(25, 25, 250);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-button:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    padding-right: 30px;
+    text-shadow: rgb(75, 42, 221) 0px 0px 1px;
+}
+.edu-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 90%;
+    
+
+}
+.school{
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    margin: 15px;
+    transition: 0.7s ease;
+    height: 300px;
+    background-color:rgb(235, 235, 235);
+    width:50%;
+    min-width: 30%;
+    overflow-x: auto; 
+    overflow-y: auto;
+
+}
+
+.university{
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    
+    margin: 15px;
+    transition: 0.7s ease;
+    height: 300px;
+    background-color:rgb(235, 235, 235);
+    width:50%;
+    min-width: 30%;
+    overflow-x: auto; 
+    overflow-y: auto;
+
+}
+.university:hover {
+    background-color: rgb(218, 213, 213);
+    transform: scale(1.1);
+    background: url(images/uni.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.school:hover {
+    background-color: rgb(218, 213, 213);
+    transform: scale(1.1);
+    background: url(images/school.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.edu-content center {
+    padding-top: 10%;
+
+}
+.edu-content a {
+    
+    text-decoration: none;
+    color:rgb(25, 25, 250);
+
+}
+.edu-content h2{
+    
+    color:#1a072c;
+}
+.edu-header{
+
+    font-weight:5em;
+    margin-top:20px;
+    padding-top: 100px;
+
+}
+
+
+
+.projects{
+    background-color:#1a072c;
+    
+}
+
+.projects-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.project1{
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 20px;
+    margin: 15px;
+    transition: 0.7s ease;
+    height: 300px;
+    background-color:rgba(255, 255, 255, 0.801);
+    width:50%;
+    min-width: 30%;
+    min-height: fit-content;
+    overflow-x: auto; 
+    overflow-y: auto;
+}
+
+.project2{
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 20px;
+
+    
+    margin: 15px;
+    transition: 0.7s ease;
+    height: 300px;
+    background-color:rgba(255, 255, 255, 0.801);
+    width:50%;
+    min-width: 30%;
+    min-height: fit-content;
+    overflow-x: auto; 
+    overflow-y: auto;
+
+}
+.project2:hover {
+    background-color: rgb(218, 213, 213);
+    transform: scale(0.9);
+    
+}
+.project1:hover {
+    background-color: rgb(218, 213, 213);
+    transform: scale(0.9);
+    
+}
+.projects-content center {
+    padding-top: 10%;
+    
+}
+.projects-content a {
+    text-decoration: none;
+    color:rgb(25, 25, 250);
+}
+.projects-content h2{
+    
+    color:#1a072c;
+}
+.projects-header{
+
+    font-weight:5em;
+    padding-top: 100px;
+    
+    color: white;
+    background-color:#1a072c;
+}
+.project-footer h1{
+    color: white;
+    padding-top:50px;
+}
+
+.social-icons2 a {
+    color: #1a072c;
+
+    font-size:400%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: rgb(75, 42, 221) 0px 0px 1px;
+}
